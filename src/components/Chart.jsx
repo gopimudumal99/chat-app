@@ -2,10 +2,10 @@ import React from 'react'
 import {useNavigate} from 'react-router-dom'
 // import {ChatEngine} from 'react-chat-engine'
 import {auth} from '../firebase'
-import {useAuth} from '../contexts/AuthContext'
+// import {useAuth} from '../contexts/AuthContext'
 
 const Chart = ()=>{
-    const {user} = useAuth();
+    // const {user} = useAuth();
     
     const navigate = useNavigate()
     const handleLogout = async() =>{
