@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { AuthProvider } from "../contexts/AuthContext";
 import Chart from "./Chart";
-
 import Login from   './Login'
 
 function App() {
